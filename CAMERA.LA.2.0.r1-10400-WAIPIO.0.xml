@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="CAMERA.LA.2.0.r1" sync-j="8"/>
+  <project name="clo/la/platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" revision="60a037f204a81ebd3c1a257ee15eac060f0dbe7c" upstream="refs/heads/camera-SnapdragonCamera.lnx.5.0.r2-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/app_snapcam_product.mk" src="app_snapcam_system_product.mk"/>
+  </project>
+  <project name="clo/la/platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="a0c39958e7a66e82cb0b02e9aa6330c60f6d7749" upstream="refs/heads/camera-kernel.lnx.5.0.r2-rel">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
+  </project>
+</manifest>
