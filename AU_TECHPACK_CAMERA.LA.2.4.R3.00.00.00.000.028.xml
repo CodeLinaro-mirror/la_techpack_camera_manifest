@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="98fbcd7a2c238e0317978e59fa4ddb033d87ad91" upstream="refs/heads/camera-kernel.lnx.5.4.r4-rel">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
+  </project>
+</manifest>
