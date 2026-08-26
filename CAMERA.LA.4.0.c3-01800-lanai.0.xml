@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" revision="66d543a68328a3e5added375081e574d3f92a216" upstream="refs/heads/camera-SnapdragonCamera.lnx.7.0.c3"/>
+  <project remote="clo-la" name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="be858d23ff3a8e53028ca134d5dcbc5dd6aca180" upstream="refs/heads/camera-kernel.lnx.7.0.c3">
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" src="board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" src="product.mk"/>
+  </project>
+</manifest>
